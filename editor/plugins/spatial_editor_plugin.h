@@ -88,7 +88,6 @@ class SpatialEditorViewport : public Control {
 		VIEW_AUDIO_DOPPLER,
 		VIEW_GIZMOS,
 		VIEW_INFORMATION,
-		VIEW_FPS,
 		VIEW_DISPLAY_NORMAL,
 		VIEW_DISPLAY_WIREFRAME,
 		VIEW_DISPLAY_OVERDRAW,
@@ -138,9 +137,6 @@ private:
 
 	PanelContainer *info;
 	Label *info_label;
-
-	PanelContainer *fps;
-	Label *fps_label;
 
 	struct _RayResult {
 
